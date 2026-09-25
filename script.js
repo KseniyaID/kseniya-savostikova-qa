@@ -176,6 +176,19 @@ if (resumeLink) {
   });
 }
 
+const emailLink = document.getElementById("emailLink");
+if (emailLink) {
+  emailLink.addEventListener("click", (event) => {
+    const mobile =
+      /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+      window.matchMedia("(pointer: coarse)").matches;
+    if (!mobile) return;
+    // На телефоне почтовое приложение есть всегда, веб-Gmail только мешает.
+    event.preventDefault();
+    window.location.assign("mailto:kseniyahart@gmail.com");
+  });
+}
+
 langToggle.addEventListener("click", () => {
   const next = (safeStorageGet("vizitka-lang") || "ru") === "ru" ? "en" : "ru";
   applyLang(next);
