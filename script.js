@@ -99,6 +99,9 @@ function applyLang(lang) {
   // theme button label depends on current theme + language
   updateThemeLabel(lang);
 
+  const resume = document.getElementById("resumeLink");
+  if (resume) resume.setAttribute("href", lang === "en" ? "resume-en.pdf" : "resume.pdf");
+
   root.lang = lang;
   langToggle.textContent = lang === "ru" ? "EN" : "RU";
   safeStorageSet("vizitka-lang", lang);
