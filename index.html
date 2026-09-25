@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ксения Савостикова — QA Engineer</title>
+    <meta
+      name="description"
+      content="Ксения Савостикова — Middle QA. Ручное тестирование, LMS, релизы, Postman, SQL. Санкт-Петербург. Открыта к предложениям."
+    />
+    <meta name="theme-color" content="#0f766e" />
+
+    <!-- Open Graph / превью в Telegram, HH, соцсетях -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content="Ксения Савостикова — Middle QA Engineer" />
+    <meta
+      property="og:description"
+      content="Manual QA · LMS · релизы · Postman · SQL. Санкт-Петербург · гибрид. Открыта к предложениям."
+    />
+    <meta property="og:image" content="https://KseniyaID.github.io/kseniya-savostikova-qa/hero-qa-desk.jpg" />
+    <meta property="og:image:alt" content="Рабочее место QA: YouTrack, веб-проект, TestIT" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ксения Савостикова — Middle QA Engineer" />
+    <meta
+      name="twitter:description"
+      content="Manual QA · LMS · релизы. СПб · гибрид. Открыта к предложениям."
+    />
+    <meta name="twitter:image" content="https://KseniyaID.github.io/kseniya-savostikova-qa/hero-qa-desk.jpg" />
+    <meta property="og:url" content="https://KseniyaID.github.io/kseniya-savostikova-qa/" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <link rel="preload" as="image" href="hero-qa-desk.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- Шрифты не блокируют первый экран: system-ui сразу, Google Fonts подгружаются -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <div class="topbar">
+      <p class="status" data-i18n="status">Открыта к предложениям · СПб · гибрид</p>
+      <div class="topbar__controls">
+        <button type="button" class="chip" id="langToggle" aria-label="Switch language">
+          EN
+        </button>
+        <button type="button" class="chip" id="themeToggle" aria-label="Toggle theme">
+          <span data-i18n="themeDark">Тёмная</span>
+        </button>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <picture>
+          <source srcset="hero-qa-desk.webp" type="image/webp" />
+          <img
+            src="hero-qa-desk.jpg"
+            alt="Три монитора: YouTrack, веб-проект для теста и TestIT; сбоку гитара"
+            width="1600"
+            height="1067"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </picture>
+        <div class="hero__veil"></div>
+      </div>
+
+      <div class="hero__content is-visible">
+        <p class="brand" data-i18n="brand">Ксения Савостикова</p>
+        <h1 data-i18n="heroTitle">
+          Middle QA, который держит релизы на нескольких продуктах сразу
+        </h1>
+        <p class="lead" data-i18n="heroLead">
+          Ручное тестирование сложных веб-продуктов — LMS, конструкторы, API.
+          Санкт-Петербург · гибрид / удалёнка / офис
+        </p>
+        <div class="cta">
+          <a class="btn btn--primary" id="resumeLink" href="resume.pdf" data-i18n="btnResume"
+            >Резюме PDF</a
+          >
+          <a
+            class="btn btn--ghost"
+            href="https://t.me/Bolt_reznoj"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="btnTelegram"
+            >Telegram</a
+          >
+          <a class="btn btn--ghost" href="mailto:kseniyahart@gmail.com" data-i18n="btnEmail"
+            >E-mail</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section reveal" id="about">
+        <h2 data-i18n="aboutTitle">Кто я</h2>
+        <p data-i18n="aboutText">
+          QA Engineer с опытом продуктовой и заказной разработки. Умею быть
+          единственной точкой контроля качества, вести до 3–5 проектов параллельно
+          и не ронять двухнедельный релизный ритм.
+        </p>
+        <p class="aside" data-i18n="aboutAside">
+          Вне работы — музыка: играю на двух инструментах и пою. Иногда — рыбалка.
+          В резюме это деталь характера; в работе важнее внимательность и спокойный
+          темп под дедлайн.
+        </p>
+      </section>
+
+      <section class="section section--split reveal" id="focus">
+        <div>
+          <h2 data-i18n="focusTitle">Фокус</h2>
+          <ul class="list">
+            <li data-i18n="focus1">Полный цикл manual QA: требования → тест-дизайн → релиз</li>
+            <li data-i18n="focus2">Функционал, регресс, интеграция, API (Postman)</li>
+            <li data-i18n="focus3">Тест-кейсы, чек-листы, дефекты до закрытия</li>
+            <li data-i18n="focus4">Сложные веб-сценарии и межмодульные риски</li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18n="openTitle">Сейчас открыта к</h2>
+          <ul class="list">
+            <li data-i18n="open1">Роли Middle QA / QA Engineer (manual)</li>
+            <li data-i18n="open2">Продукт, LMS, EdTech, веб-платформы</li>
+            <li data-i18n="open3">Формат: гибрид в приоритете</li>
+            <li data-i18n="open4">Рост в сторону автоматизации — учусь быстро</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section reveal" id="highlights">
+        <h2 data-i18n="expTitle">Опыт в двух штрихах</h2>
+        <article class="highlight">
+          <h3>Imagespark · QA Manual (Middle)</h3>
+          <p data-i18n="exp1">
+            2023–2026. Единственный QA на ключевых продуктах. Основной —
+            платформа электронных курсов (LMS) и конструктор. Релизы раз в
+            2 недели + поддержка на нескольких направлениях.
+          </p>
+        </article>
+        <article class="highlight">
+          <h3 data-i18n="exp2Title">Алее Софтвер · Junior QA</h3>
+          <p data-i18n="exp2">
+            2022–2023. Enterprise-тестирование для крупных заказчиков:
+            Норникель, Вертолёты России, РФС, Красцветмет, ТМК.
+          </p>
+        </article>
+      </section>
+
+      <section class="section reveal" id="stack">
+        <h2 data-i18n="stackTitle">Стек</h2>
+        <p class="stack" data-i18n="stackText">
+          Postman · API · SQL · PostgreSQL · MS SQL · JSON · XML · Git · GitHub ·
+          Chrome DevTools · HTML · CSS · Figma · YouTrack · TestIT · Kiwi TCMS ·
+          Portainer · Windows / VM-стенды
+        </p>
+        <p class="aside" data-i18n="stackProducts">
+          В работе сталкивалась со стеком продуктов: Vue 2.7 / Vuex / Vue Router,
+          UI Kit, PHP, Laravel; участвовала в проверках в контуре CI/CD.
+        </p>
+        <p class="aside" data-i18n="stackLang">
+          Языки: русский — родной; английский — B1 (документация, UI, баг-репорты).
+        </p>
+      </section>
+
+      <section class="section section--contact reveal" id="contact">
+        <h2 data-i18n="contactTitle">Связаться</h2>
+        <p class="contact-line">
+          <a href="https://t.me/Bolt_reznoj" target="_blank" rel="noopener noreferrer"
+            >Telegram · @Bolt_reznoj</a
+          >
+        </p>
+        <p class="contact-line">
+          <a href="mailto:kseniyahart@gmail.com">kseniyahart@gmail.com</a>
+        </p>
+        <p class="contact-line">
+          <a href="tel:+79627004731">+7 (962) 700-47-31</a>
+        </p>
+        <p class="contact-note" data-i18n="contactNote">
+          Санкт-Петербург · ответы обычно в тот же день
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span data-i18n="brand">Ксения Савостикова</span>
+      <span>QA Engineer</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
